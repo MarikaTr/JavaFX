@@ -1,0 +1,45 @@
+#button1{
+ -fx-background-color: linen;
+ -fx-border-color: gray;
+ -fx-border-width:5;
+ -fx-border-radius: 6;
+}
+#button1:focused {
+ -fx-border-color: white;
+}
+#button1:hover {
+ -fx-border-color: gray;
+}
+#button1:pressed {
+ -fx-border-color: black;
+}
+#textArea {
+ -fx-font-size: 14px;
+ -fx-border-width:5;
+ -fx-border-color: gray;
+}
+#toolPane {
+ -fx-background-color: linen;
+ -fx-border-color: gray;
+ -fx-border-width:5
+}
+#circleButton{
+ -fx-fill: linen;
+ -fx-border-color: gray;
+ -fx-border-width:5;
+ margin: 10px;
+ padding: 10px;
+}
+#circleButton:hover {
+ -fx-fill: red;
+}
+#circleButton:pressed {
+ -fx-fill: gray;
+}
+.list-cell:odd {
+ -fx-background-color: gray;
+ }
+ HBox{
+     margin: 10px;
+     padding: 10px;
+}
